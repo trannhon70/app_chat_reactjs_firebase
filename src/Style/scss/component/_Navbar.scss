@@ -1,0 +1,27 @@
+.layout__Navbar {
+    width: 97%;
+    height: 60px;
+    font-size: 20px;
+    padding: 10px 20px;
+    
+    &-Left {
+        float: left;
+        width: 50%;
+        @include button-Header();
+    }
+
+    &-Right {
+        float: left;
+        width: 50%;
+        text-align: right;
+        &-link{
+            @include button-Header();
+            width: 160%;
+        }
+        &-link1{
+            @include button-Header();
+            width: 120%;
+        }
+        
+    }
+}
